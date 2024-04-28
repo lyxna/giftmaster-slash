@@ -19,7 +19,7 @@ module.exports = {
             .setThumbnail(interaction.client.user.displayAvatarURL({ dynamic: true, size: 64 })) // Set the bot's avatar as the thumbnail
             .addFields({
                 name: `Commands`,
-                value: "`/help` **Create a new service**\n`/free` **Add a reward to the stock**\n`/stock`  **View the current stock**\n`/premium` **Generate premium reward**"
+                value: "`/help` **Displays the help command**\n`/gen` **Generate free reward**\n`/stock`  **View the current stock**\n`/premium` **Generate premium reward**"
             })
             .setFooter(interaction.user.tag, interaction.user.displayAvatarURL({ dynamic: true, size: 64 }))
             .setTimestamp()
