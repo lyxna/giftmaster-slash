@@ -90,7 +90,7 @@ module.exports = {
                     .setColor(config.color.green)
                     .setTitle('Generated Premium account')
                     .setFooter(interaction.user.tag, interaction.user.displayAvatarURL({ dynamic: true, size: 64 }))
-                    .setDescription('🙏 Thank you so much for being a premium member! \n 🌟 Your support means the world to us! 💖😊')
+                    .setDescription('🙏 Thank you so much for being a premium member! \n 🌟 Your support helps us a lot!🌟 ')
                     .addField('Service', `\`\`\`${service[0].toUpperCase()}${service.slice(1).toLowerCase()}\`\`\``, true)
                     .addField('Account', `\`\`\`${generatedAccount}\`\`\``, true)
                     .setImage(config.banner)
@@ -99,7 +99,7 @@ module.exports = {
                 member.send({ embeds: [embedMessage] })
                     .catch(error => console.error(`Error sending embed message: ${error}`));
                 interaction.reply({
-                    content: `**Check your DM ${member}!** __If you do not receive the message, please unlock your private!__`,
+                    content: `**Check your DM ${member}!** Leave a https://discord.com/channels/1232777905491411058/1232778985826685039 if it works `, ephemeral: true
                 });
 
                 generated.add(member.id);
