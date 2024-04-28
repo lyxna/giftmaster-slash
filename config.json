@@ -5,18 +5,18 @@
 
   "port": "3000",
   
-  "clientId": "00000000000000000",
-  "guildId": "0000000000000000000",
+  "clientId": "1234204137076428882",
+  "guildId": "1232777905491411058",
 
-  "status": "Made By ScienceGear 🔥",
-  "website": "https://youtube.com/ScienceGearYT",
-  "banner": "https://media.discordapp.net/attachments/960440723369517106/996423763522506782/rainbow-border.gif",
-  "footer": "Made By ScienceGear 🔥",
+  "status": "with NBAim",
+  "website": "https://nbaim.sellpass.io/",
+  "banner": "https://cdn.discordapp.com/attachments/1207135046692110436/1232783417590939808/ss.png?ex=662f53c6&is=662e0246&hm=245bfa104f1281a038c965fb16781abae80244422a476fde69b481d02577dad4&",
+  "footer": "by NBA",
 
-  "genChannel": "00000000000000000000",
-  "premiumChannel": "00000000000000000000",
-  "genCooldown": "5",
-  "premiumCooldown": "3",
+  "genChannel": "1234207106949840906",
+  "premiumChannel": "1234207422562701433",
+  "genCooldown": "800",
+  "premiumCooldown": "500",
 
   "color": {
     "green": "0x57F287",
