@@ -9,7 +9,7 @@ const generated = new Set();
 
 module.exports = {
     data: new SlashCommandBuilder()
-        .setName('free')
+        .setName('gen')
         .setDescription('Generate a specified service if stocked')
         .addStringOption(option =>
             option.setName('service')
@@ -97,13 +97,13 @@ module.exports = {
                 member.send({ embeds: [embedMessage] })
                     .catch(error => console.error(`Error sending embed message: ${error}`));
                 interaction.reply({
-                    content: `**Check your DM ${member}!** __If you do not receive the message, please unlock your private!__`,
+                    content: `**Check your DM ${member}!** Leave a https://discord.com/channels/1226519611500138516/1226519611906986132 if it works `, ephemeral: true
                 });
 
                 generated.add(member.id);
                 setTimeout(() => {
                     generated.delete(member.id);
-                }, config.genCooldown * 1000);
+                }, config.genCooldown * 6000);
             });
         });
     },
