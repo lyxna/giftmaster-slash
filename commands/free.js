@@ -97,7 +97,7 @@ module.exports = {
                 member.send({ embeds: [embedMessage] })
                     .catch(error => console.error(`Error sending embed message: ${error}`));
                 interaction.reply({
-                    content: `**Check your DM ${member}!** Leave a https://discord.com/channels/1226519611500138516/1226519611906986132 if it works `, ephemeral: true
+                    content: `**Check your DM ${member}!** Leave a https://discord.com/channels/1232777905491411058/1232778985826685039 if it works `, ephemeral: true
                 });
 
                 generated.add(member.id);
